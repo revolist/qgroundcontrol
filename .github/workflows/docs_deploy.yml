@@ -1,15 +1,6 @@
 name: Docs
 
 on:
-  push:
-    branches:
-      - master
-      - 'Stable*'
-    tags:
-      - 'v*'
-    paths:
-      - 'docs/**'
-      - 'package*.json'
   pull_request:
     paths:
       - 'docs/**'
